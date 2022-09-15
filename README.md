@@ -122,8 +122,8 @@ calculating SVD ...
 Continuous Bag-Of-Words (CBOW)のモデルを使用
 
 ## 3.4 CBOWのモデルの実装
+lossが収束した  
 ![](ch03/loss.png)
-lossが収束した
 
 ```console
 you [ 1.2040255  -0.95433366 -1.0362948   0.9855163   1.6463662 ]
