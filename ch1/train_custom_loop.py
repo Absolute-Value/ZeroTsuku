@@ -6,7 +6,6 @@ from dataset import spiral
 import matplotlib.pyplot as plt
 from two_layer_net import TwoLayerNet
 import argparse
-from tqdm import tqdm
 
 # ハイパーパラメータの設定
 parser = argparse.ArgumentParser()
@@ -51,7 +50,7 @@ for epoch in range(1, args.epochs+1):
 
         if (iters+1) % 10 == 0:
             avg_loss = total_loss / loss_count
-            print(avg_loss)
+            print(f"Epoch: {epoch}, Iter : {iters+1}, Loss : {avg_loss}")
             loss_list.append(avg_loss)
             total_loss, loss_count = 0, 0
 
