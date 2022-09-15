@@ -57,4 +57,4 @@ for epoch in range(1, args.epochs+1):
 plt.plot(loss_list, label='train_loss')
 plt.xlabel('epoch')
 plt.ylabel('loss')
-plt.show()
+plt.savefig("loss.png")
