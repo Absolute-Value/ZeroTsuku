@@ -62,7 +62,7 @@ SVD：
 ```
 ![](ch02/SVD.png)
 
-### 2.4.4 PTB データセット
+### 2.4.4 PTBデータセット
 ```console
 Downloading ptb.train.txt ... 
 Done
@@ -76,4 +76,37 @@ id_to_word[2]: berlitz
 word_to_id[car] 3856
 word_to_id[happy] 4428
 word_to_id[lexus] 7426
+```
+
+### 2.4.5 PTBデータセットでの評価
+```console
+calculating SVD ...
+
+[query] you
+ i: 0.7423336505889893
+ we: 0.6873364448547363
+ 'll: 0.5722132921218872
+ anybody: 0.5416010022163391
+ do: 0.5074149966239929
+
+[query] year
+ month: 0.643277645111084
+ next: 0.6333162188529968
+ quarter: 0.61776202917099
+ last: 0.6124981641769409
+ june: 0.5761646032333374
+
+[query] car
+ luxury: 0.622611403465271
+ auto: 0.6135919690132141
+ cars: 0.5674763917922974
+ corsica: 0.5304152369499207
+ truck: 0.5002594590187073
+
+[query] toyota
+ motor: 0.6578593254089355
+ nissan: 0.6551104784011841
+ motors: 0.649016261100769
+ lexus: 0.5721182227134705
+ honda: 0.5511035919189453
 ```
