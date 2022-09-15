@@ -1,7 +1,7 @@
 import sys
 sys.path.append('..')
 import numpy as np
-from common.layers import *
+from common.layers import Affine, Sigmoid, SoftmaxWithLoss
 
 class TwoLayerNet:
     def __init__(self, input_size, hidden_size, output_size):
